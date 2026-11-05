@@ -1,0 +1,114 @@
+akfa-medline 00 icon 4286 https://akfamedline.uz/favicon.ico?favicon.39e6139d.ico
+akfa-medline 01 og 289972 https://akfamedline.uz/img/home-hero-bg.jpg
+akfa-medline 02 img 17927 https://akfamedline.uz/_next/image?url=%2Fbranding%2Fmain_logo.png&w=384&q=75
+akfa-medline 03 img 3393 https://akfamedline.uz/icons/netto-logo-white.svg
+uzcard 00 icon 15086 https://uzcard.uz/favicon.ico
+humo 00 icon 5430 https://humocard.uz/favicon.ico?v2
+humo 01 og 85534 https://humocard.uz/upload/media/images/social.jpg
+humo 02 img 6018 https://humocard.uz/bitrix/templates/main/img/logo2.png
+humo 03 img 6018 https://humocard.uz/bitrix/templates/main/img/logo.png
+humo 04 img 20437 https://humocard.uz/upload/iblock/4ed/zjxm2n0ond45snlbm42ft182swoqblbo/AsakabankLogo.png
+humo 05 img 132657 https://humocard.uz/upload/iblock/1c6/pr0kob52klowkbgkzxb3ncwqwcy5n6dh/AAB_logo.png
+humo 06 img 17919 https://humocard.uz/upload/iblock/b0d/gah3z11dda291ae0scn1w61gw1dbuyxz/Agrobank_Logo_2.png
+humo 07 img 67061 https://humocard.uz/upload/iblock/5b6/gwk21b67mwlnqfzam6s8jc09aqnc3mng/logo_infin_2_2_.png
+humo 08 img 13672 https://humocard.uz/upload/iblock/e90/egntdl9ao911h9dwatbljzn831kyp2a0/Logo-mybank-1.png
+humo 09 img 20967 https://humocard.uz/upload/iblock/f46/8332cslyf950og3q0czqpp4oudtcsrl8/logo_garantbank.png
+uzum-bank https://uzumbank.uz/ru FAIL ConnectTimeout
+uzum-bank NONE
+uzum-market 00 icon 2298 https://uzum.uz/static/img/icons/favicon.svg
+uzum-market 01 icon 2209 https://uzum.uz/static/img/icons/favicon-32x32.png
+uzum-market 02 icon 1388 https://uzum.uz/static/img/icons/favicon-16x16.png
+uzum-market 03 icon 15086 https://uzum.uz/static/img/icons/favicon.ico
+uzum-market 04 icon 4543 https://uzum.uz/static/img/icons/apple-touch-icon.png
+uzum-auto https://uzumauto.uz FAIL ConnectionError
+uzum-auto https://auto.uzum.uz FAIL ConnectionError
+uzum-auto NONE
+manana 00 icon 1620 https://static.tildacdn.pro/tild3435-3662-4137-a531-353333353362/Frame_36.png
+manana 01 og 1620 https://static.tildacdn.pro/tild3336-3761-4837-a433-646633663237/Frame_36.png
+manana 02 img 11762 https://static.tildacdn.pro/tild6239-6138-4436-a137-623930336436/g8.svg
+manana 03 img 11770 https://static.tildacdn.pro/tild3966-6164-4233-a464-353036316437/g8.svg
+cucucina 00 icon 12469 https://static.tildacdn.pro/tild3639-6231-4637-a564-383164306366/Frame_31.png
+cucucina 01 og 12786 https://static.tildacdn.pro/tild3861-3032-4863-a264-343466313463/Frame_30.png
+cucucina 02 img 458979 https://static.tildacdn.pro/tild3733-6434-4761-b538-363334343739/logo.svg
+cucucina 03 img 459164 https://static.tildacdn.pro/tild3038-6533-4662-b534-363934326366/logo2.svg
+ribambelle 00 icon 539 https://static.tildacdn.com/tild3736-3436-4263-a265-613961363138/Frame_315718.png
+ribambelle 01 icon 529 https://static.tildacdn.com/tild3635-3139-4763-b861-623861333639/Frame_315718_1.png
+ribambelle 02 icon 1925 https://static.tildacdn.com/tild3265-6239-4163-b464-646530646163/Frame_315719.svg
+ribambelle 03 icon 2760 https://static.tildacdn.com/tild6238-6535-4261-b931-613835383833/Frame_315720_1.png
+ribambelle 04 og 32360 https://static.tildacdn.com/tild6464-6663-4838-b261-653539316337/photo.jpg
+ribambelle 05 img 5535 https://static.tildacdn.com/tild3664-3865-4339-b434-653539373230/Frame_80.png
+ribambelle 06 img 1255 https://thb.tildacdn.com/tild3465-3565-4339-a235-343834646364/-/empty/TOUS_logo.png
+ribambelle 07 img 3820 https://thb.tildacdn.com/tild6166-3463-4739-a638-323931383633/-/empty/logo_san_vito.png
+ribambelle 08 img 1143 https://thb.tildacdn.com/tild3130-3730-4739-b938-656437656563/-/empty/logo_1.png
+tanuki https://tanuki.uz FAIL SSLError
+tanuki https://tanuki.ru FAIL HTTPError
+tanuki NONE
+kaspiyka https://kaspiyka.uz FAIL ConnectionError
+kaspiyka 00 icon 598 https://static.tildacdn.com/tild3663-3832-4236-a664-363265353663/Kaspiyka_favicon.png
+kaspiyka 01 icon 598 https://static.tildacdn.com/tild3238-3261-4332-a461-343162353165/Kaspiyka_favicon.png
+kaspiyka 02 icon 119905 https://static.tildacdn.com/tild3930-6161-4561-b832-636436303735/Kaspiyka_favicon.svg
+kaspiyka 03 icon 6064 https://static.tildacdn.com/tild3765-3336-4139-a234-346139366637/Kaspiyka_favicon180.png
+kaspiyka 04 og 123843 https://static.tildacdn.com/tild3164-3462-4232-a161-306562366561/photo.png
+lambic 00 icon 4458 https://lambic.uz/favicon/apple-touch-icon-57x57.png
+lambic 01 icon 4806 https://lambic.uz/favicon/apple-touch-icon-60x60.png
+lambic 02 icon 6041 https://lambic.uz/favicon/apple-touch-icon-72x72.png
+lambic 03 icon 6400 https://lambic.uz/favicon/apple-touch-icon-76x76.png
+lambic 04 icon 53690 https://lambic.uz/favicon/favicon-96x96.svg
+lambic 05 icon 53690 https://lambic.uz/favicon/favicon-32x32.svg
+lambic 06 icon 955 https://lambic.uz/favicon/favicon-16x16.png
+lambic 07 og 7005 https://lambic.uz/src/images/logo.jpg
+lambic 08 icon 4458 https://lambic.ru/favicon/apple-touch-icon-57x57.png
+lambic 09 icon 4806 https://lambic.ru/favicon/apple-touch-icon-60x60.png
+gunaydin https://gunaydin.uz FAIL ConnectionError
+gunaydin https://gunaydin.ru FAIL ConnectionError
+gunaydin NONE
+myata https://myatalounge.uz FAIL ConnectionError
+myata NONE
+big-chef https://bigchef.uz FAIL ConnectionError
+big-chef NONE
+salama 00 icon 356 https://static.tildacdn.pro/tild3130-3930-4964-a563-383033636463/Frame_383.png
+sushi-market https://sushimarket.uz FAIL ConnectionError
+sushi-market NONE
+asia-sushi 00 icon 3310 https://ipx.lamenu.uz/insecure/rs:fit:192:192:0/ex:1:ce/q:90/dpr:1/plain/https://cdn.lamenu.uz/files/photo/f1e08018-b483-4a36-8e6a-0b3ff167613f/95646afb-88f6-4c61-a3ec-754a5c246efa.jpg@webp
+asia-sushi 01 og 46073 https://cdn.lacafe.uz/files/photo/f1e08018-b483-4a36-8e6a-0b3ff167613f/32c67e58-81da-478b-a6bf-547b93740dcb.jpg
+yunga https://yunga.uz FAIL ConnectionError
+yunga NONE
+cafe-cafe https://cafecafe.uz FAIL ConnectTimeout
+cafe-cafe NONE
+wine-bazzar https://winebazzar.uz FAIL ConnectionError
+wine-bazzar https://winebazar.uz FAIL ConnectionError
+wine-bazzar NONE
+ugolek 00 icon 218201 https://ugolek.uz/icon.png?icon.15bifaa4f2plx.png
+ugolek 01 icon 40114 https://ugolek.uz/apple-icon.png?apple-icon.1xog_4jgc-_b-.png
+ugolek 02 img 24720 https://ugolek.uz/_next/image/?url=%2Fmedia%2F2026%2F06%2Fugoleklogo.png&w=240&q=75
+ugolek 03 img 225 https://ugolek.uz/flags/ru_RU.svg
+ugolek 04 img 1498 https://ugolek.uz/flags/uz_UZ.svg
+ugolek 05 img 504 https://ugolek.uz/flags/en_GB.svg
+ugolek 06 img 290669 https://ugolek.uz/_next/image/?url=%2Fmedia%2F2026%2F06%2Fugoleklogo.png&w=2560&q=75
+tepito https://tepito.uz FAIL ConnectionError
+tepito NONE
+brisket 00 icon 1243 https://static.tildacdn.com/tild6132-6230-4865-a164-316134393030/Favicon.png
+brisket 01 og 880356 https://static.tildacdn.com/tild3137-3132-4332-a366-633238396464/_1.png
+skandalist https://skandalist.uz FAIL ConnectionError
+skandalist NONE
+jolie 00 inline-svg
+jolie 01 icon 6703 https://jolie.uz/icon.png?v=b934cba16e
+jolie 02 icon 4363 https://jolie.uz/icon.png?s=180&v=b934cba16e
+jolie 03 og 9958 https://cdn.getposse.app/cmsg8h0je000104juccha8ka0/logo/6f80355f-e5f0-45b3-93a0-73a25d955fa5.webp
+hype-bar https://hypebar.uz FAIL ConnectionError
+hype-bar NONE
+ku-ramen 00 icon 1131 https://kuramen.uz/wp-content/uploads/2026/02/cropped-cropped-whatsapp-image-2020-11-08-at-16.59.24-32x32-1-32x32.jpeg
+ku-ramen 01 icon 7639 https://kuramen.uz/wp-content/uploads/2026/02/cropped-cropped-whatsapp-image-2020-11-08-at-16.59.24-32x32-1-192x192.jpeg
+ku-ramen 02 icon 6623 https://kuramen.uz/wp-content/uploads/2026/02/cropped-cropped-whatsapp-image-2020-11-08-at-16.59.24-32x32-1-180x180.jpeg
+takahuli https://tkh.uz FAIL SSLError
+takahuli https://takahuli.uz FAIL ConnectionError
+takahuli NONE
+nika https://nika.uz FAIL ConnectTimeout
+nika NONE
+momonga 00 inline-svg
+momonga 01 icon 8462 https://momonga.uz/icon.png?v=524f256251
+momonga 02 icon 5588 https://momonga.uz/icon.png?s=180&v=524f256251
+momonga 03 og 153640 https://cdn.getposse.app/cmsg5nyha000104la052i468l/hero/0cf405f6-995e-4038-95d2-36d28220a6e4.webp
+momonga 04 img 3854 https://cdn.getposse.app/cmsg5nyha000104la052i468l/logo/e0629361-b0dd-49b7-9431-e07374d29047.webp
+kuranty https://kuranty.uz FAIL ConnectionError
+kuranty NONE
