@@ -7,7 +7,7 @@
   var D        = window.HH_DATA || { categories: [], products: [] };
   var CATS     = D.categories;
   var PRODS    = D.products;
-  var TG       = 'horecahubuz';
+  var TG       = 'Bakha_Festival';
   var WA       = '998935928800';
   var IMG      = 'assets/img/products/';
   var $        = function (s, r) { return (r || document).querySelector(s); };
