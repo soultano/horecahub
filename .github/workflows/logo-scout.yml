@@ -1,0 +1,28 @@
+name: logo-scout
+on:
+  workflow_dispatch:
+  push:
+    paths: ['tools/logo_sites.json', 'tools/logo_scout.py']
+permissions:
+  contents: write
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests beautifulsoup4 && sudo apt-get install -y -qq librsvg2-bin imagemagick >/dev/null
+      - run: rm -rf _cand && python tools/logo_scout.py
+      - name: Contact sheets
+        run: |
+          for d in _cand/*/; do
+            s=$(basename "$d"); files=()
+            for f in "$d"*; do
+              case "$f" in *.svg) rsvg-convert -h 120 "$f" -o "$f.png" 2>/dev/null && files+=("$f.png");;
+                *.png|*.jpg|*.jpeg|*.webp|*.ico|*.gif) files+=("$f");; esac
+            done
+            [ ${#files[@]} -gt 0 ] && montage "${files[@]}" -background '#dddddd' -geometry 160x120+6+6 -label '%f' -pointsize 10 "_cand/_sheet_$s.png" 2>/dev/null || true
+          done
+          ls _cand
+      - run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A _cand; git diff --cached --quiet || git commit -m "scout: logo candidates"; git push

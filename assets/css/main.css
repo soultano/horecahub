@@ -553,3 +553,22 @@ p{margin:0}
   .add{width:34px;height:34px;border-radius:10px}
   .add svg{width:16px;height:16px}
 }
+
+/* ---------- partners ---------- */
+.par-t{font-size:1.02rem;font-weight:700;color:var(--txt-2);letter-spacing:-.01em;margin:44px 0 16px}
+.pars{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.pars-corp{grid-template-columns:repeat(6,1fr)}
+.par{height:96px;border:1px solid var(--line);border-radius:var(--r-m);background:var(--paper);
+  display:flex;align-items:center;justify-content:center;padding:16px 18px;
+  transition:border-color .25s,box-shadow .3s var(--ease),transform .3s var(--ease)}
+.par:hover{border-color:var(--accent);box-shadow:var(--sh-s);transform:translateY(-2px)}
+.par img{max-width:100%;max-height:56px;width:auto;height:auto;object-fit:contain;
+  filter:grayscale(1);opacity:.72;transition:filter .3s,opacity .3s}
+.par:hover img{filter:none;opacity:1}
+.par-wm{font-family:var(--fd);font-weight:800;font-size:1.04rem;letter-spacing:-.02em;line-height:1.15;
+  text-align:center;color:var(--txt-3);transition:color .25s}
+.par:hover .par-wm{color:var(--txt)}
+@media(max-width:1080px){.pars,.pars-corp{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:680px){.pars,.pars-corp{grid-template-columns:repeat(3,1fr);gap:8px}
+  .par{height:76px;padding:10px}.par img{max-height:42px}.par-wm{font-size:.86rem}}
+@media(max-width:440px){.pars,.pars-corp{grid-template-columns:repeat(2,1fr)}}

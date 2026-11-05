@@ -265,6 +265,18 @@
     marq.innerHTML = one + one;
   }
 
+  /* ---------- partners ---------- */
+  var PAR = window.HH_PARTNERS || { venues: [], corporate: [] };
+  function parHTML(x) {
+    var inner = x.logo
+      ? '<img src="assets/img/partners/' + esc(x.logo) + '" alt="' + esc(x.name) + '" loading="lazy">'
+      : '<span class="par-wm">' + esc(x.name) + '</span>';
+    return '<div class="par rv' + (x.logo ? '' : ' par-txt') + '" title="' + esc(x.note ? x.name + ' — ' + x.note : x.name) + '">' + inner + '</div>';
+  }
+  var pv = $('#parVenues'), pc = $('#parCorp');
+  if (pv) pv.innerHTML = PAR.venues.map(parHTML).join('');
+  if (pc) pc.innerHTML = PAR.corporate.map(parHTML).join('');
+
   /* hero counters */
   var counters = $$('[data-count]');
   if (counters.length && 'IntersectionObserver' in window) {
