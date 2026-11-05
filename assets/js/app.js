@@ -270,7 +270,8 @@
   function parHTML(x) {
     var inner = x.logo
       ? '<img src="assets/img/partners/' + esc(x.logo) + '" alt="' + esc(x.name) + '" loading="lazy">'
-      : '<span class="par-wm">' + esc(x.name) + '</span>';
+      : (x.mark ? '<img class="par-mk" src="assets/img/partners/' + esc(x.mark) + '" alt="" loading="lazy">' : '') +
+        '<span class="par-wm">' + esc(x.name) + '</span>';
     return '<div class="par rv' + (x.logo ? '' : ' par-txt') + '" title="' + esc(x.note ? x.name + ' — ' + x.note : x.name) + '">' + inner + '</div>';
   }
   var pv = $('#parVenues'), pc = $('#parCorp');

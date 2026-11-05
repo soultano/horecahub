@@ -568,6 +568,8 @@ p{margin:0}
 .par-wm{font-family:var(--fd);font-weight:800;font-size:1.04rem;letter-spacing:-.02em;line-height:1.15;
   text-align:center;color:var(--txt-3);transition:color .25s}
 .par:hover .par-wm{color:var(--txt)}
+.par-txt{gap:10px}
+.par .par-mk{max-height:34px;flex:none}
 @media(max-width:1080px){.pars,.pars-corp{grid-template-columns:repeat(4,1fr)}}
 @media(max-width:680px){.pars,.pars-corp{grid-template-columns:repeat(3,1fr);gap:8px}
   .par{height:76px;padding:10px}.par img{max-height:42px}.par-wm{font-size:.86rem}}
