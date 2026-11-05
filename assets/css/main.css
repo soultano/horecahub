@@ -509,7 +509,7 @@ p{margin:0}
 @media(max-width:980px){
   .nav a{padding:9px 10px;font-size:.88rem}
 }
-@media(max-width:900px){
+@media(max-width:979px){
   .nav{display:none}
   .burger{display:flex}
   .hdr-tel{display:none}
@@ -575,3 +575,7 @@ p{margin:0}
   .par{height:76px;padding:10px}.par img{max-height:42px}.par-wm{font-size:.86rem}}
 @media(max-width:440px){.par{height:62px;padding:8px;border-radius:var(--r-s)}.par img{max-height:32px}
   .par .par-mk{max-height:22px}.par-txt{gap:6px}.par-wm{font-size:.76rem}.par-t{margin:32px 0 12px}}
+
+/* шапка: на ноутбуках номер прячем в иконку, чтобы кнопка «Заказать» не уезжала за край */
+@media(max-width:1300px) and (min-width:901px){.hdr-tel{font-size:0;gap:0}.hdr-tel svg{width:20px;height:20px}}
+@media(max-width:1080px) and (min-width:901px){.nav a{padding:9px 8px;font-size:.86rem}.lang button{padding-inline:7px}}
