@@ -1,0 +1,32 @@
+name: fetch
+# Downloads files listed in tools/fetch.txt ("<dest-path> <url>" per line) and commits them.
+on:
+  workflow_dispatch:
+  push:
+    paths: ['tools/fetch.txt']
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
+          : > tools/fetch-report.txt
+          while read -r dest url; do
+            [ -z "$dest" ] && continue; case "$dest" in \#*) continue;; esac
+            mkdir -p "$(dirname "$dest")"
+            code=$(curl -sSL -A "$UA" -m 60 -o "$dest.tmp" -w '%{http_code} %{content_type}' "$url" || echo "ERR")
+            if [ "${code%% *}" = "200" ]; then mv "$dest.tmp" "$dest"; else rm -f "$dest.tmp"; fi
+            echo "$code $(stat -c%s "$dest" 2>/dev/null || echo 0) $dest" >> tools/fetch-report.txt
+          done < tools/fetch.txt
+          cat tools/fetch-report.txt
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "fetch: download files from tools/fetch.txt"
+          git push
